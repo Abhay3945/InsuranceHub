@@ -8,6 +8,8 @@ public class InsuranceHubApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(InsuranceHubApplication.class, args);
+	
+	//hello for github
 	}
 
 }
