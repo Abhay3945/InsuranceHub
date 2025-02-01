@@ -14,7 +14,7 @@ public class User {
 
 	    @Id
 	    @GeneratedValue(strategy = GenerationType.IDENTITY)
-	    private Long uid;
+	    private Integer uid;
 
 	    @Column(nullable = false)
 	    private String uname;
@@ -32,11 +32,11 @@ public class User {
 	    private String address;  // Added the address field
 
 	    // Getters and Setters
-	    public Long getUid() {
+	    public Integer getUid() {
 	        return uid;
 	    }
 
-	    public void setUid(Long uid) {
+	    public void setUid(Integer uid) {
 	        this.uid = uid;
 	    }
 
